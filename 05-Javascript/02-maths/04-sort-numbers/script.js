@@ -13,6 +13,26 @@
     // to get the value of an input: document.getElementById("element-id").value
 
     document.getElementById("run").addEventListener("click", () => {
-        // your code here
+        let tab = document.getElementById("numbers").value.split(',').map(x => Number(x));
+		alert(tab);
+		let i = 0;
+		let j = 0;
+		console.log(tab.length);
+		while(i  < tab.length -1)
+		{
+			j = i + 1;
+			while(j < tab.length)
+			{
+				if(tab[i] > tab[j])
+				{
+					let tmp = tab[i];
+					tab[i] = tab[j];
+					tab[j] = tmp;
+				}
+				j++;
+			}
+			i++;
+		}
+		alert(tab);
     });
 })();

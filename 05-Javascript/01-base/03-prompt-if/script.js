@@ -10,5 +10,16 @@
 // You will have time to focus on it later.
 
 (() => {
+	let offrir = prompt("veut-tu un gateau?");
+	
+		if (offrir == "yes")
+		{	
+			alert("bravo");
+		}
+		else
+		{
+			alert("no tanks");
+		}
+
     // your code here
 })();

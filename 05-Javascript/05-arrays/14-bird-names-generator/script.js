@@ -37,6 +37,35 @@
         "tangent",
         "arboré",
     ]);
+		document.getElementById("run").addEventListener("click", () =>{
+			
+		const nextBirds = birds[Math.floor(Math.random() * birds.length)];
+		const next=[];
+		adjectives.forEach(function(valeur){
+			
+			next.push(valeur)
 
+		});
+			let text;
+		const arrays = next[Math.floor(Math.random() * next.length)];
+			console.log(arrays);
+			if(nextBirds.fem == true)
+			{
+				 text = nextBirds.name + " " + arrays + "e";
+			}
+			else
+			{
+				text = nextBirds.name + " " +  arrays;
+			}
+			target.innerHTML = text;
+			
+
+				
+				
+				
+
+
+
+		});
     // your code here
 })();

@@ -10,5 +10,15 @@
 // You will have time to focus on it later.
 
 (() => {
+		let usernam = prompt("Quel est ton age, sex et ta ville");
+		
+		if(confirm("clik sur ok"))
+		{
+			alert("welcome");
+		}
+		else
+		{
+			prompt("Quel est ton age, sex, et ta ville");
+		}
     // your code here
 })();

@@ -88,5 +88,9 @@
         },
     ];
 
+	document.getElementById("run").addEventListener("click", () =>{
+	 const array = people.filter(persone => persone.age > 18);
+		console.table(array);
+		});
     // your code here
 })();

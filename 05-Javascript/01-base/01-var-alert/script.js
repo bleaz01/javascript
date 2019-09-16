@@ -10,5 +10,7 @@
 // You will have time to focus on it later.
 
 (() => {
+	let call_me = "hell, world!";
+	alert(call_me);
     // your code here
 })();

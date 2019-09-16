@@ -10,5 +10,7 @@
 // You will have time to focus on it later.
 
 (() => {
+	let usernam = prompt("qui est tu jeune novice ?");
+	alert(`bonjour ${usernam)`);
     // your code here
 })();

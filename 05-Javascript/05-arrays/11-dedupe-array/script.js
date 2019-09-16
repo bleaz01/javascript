@@ -26,6 +26,13 @@
         "raisin",
         "cerise",
     ];
-
+	document.getElementById("run").addEventListener("click", () =>{
+		
+		const array = fruits.filter(function(fruit, i){
+		
+				return fruits.indexOf(fruit) === i;
+			});
+			console.log(array);
+		});
     // your code here
 })();

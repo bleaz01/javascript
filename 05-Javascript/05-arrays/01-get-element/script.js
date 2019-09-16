@@ -10,6 +10,7 @@
 // You will have time to focus on it later.
 
 (() => {
+
     const fruits = [
         "pomme",
         "poire",
@@ -24,6 +25,9 @@
         "raisin",
         "cerise",
     ];
+		document.getElementById("run").addEventListener("click", () =>{
 
+		alert(fruits[3]);
+		});
     // your code here
 })();

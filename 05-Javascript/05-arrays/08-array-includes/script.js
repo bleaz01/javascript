@@ -24,6 +24,18 @@
         "raisin",
         "cerise",
     ];
+		document.getElementById("run").addEventListener("click", () =>{
+			
+			let find = true;
+			for(let i = 0; i < fruits.length; i++)
+			{
+				if(fruits[i] == "pomme")
+				{ 
+					console.log(find);
+				}
+			}
+		});
+
 
     // your code here
 })();

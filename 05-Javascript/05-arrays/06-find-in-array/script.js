@@ -87,6 +87,20 @@
             email: "gkeatche@google.fr",
         },
     ];
+	document.getElementById("run").addEventListener("click", () =>{
+	
+						
+			for(let i = 0; i < people.length; i++)
+			{
+				if(people[i].firstname == "Jean")
+				{
+					console.log(people[i].email);
+					console.log("index = " + i);
+					break;
+				}
+				i++;
+			}
 
+		});
     // your code here
 })();

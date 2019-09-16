@@ -21,6 +21,23 @@
         "Simon",
         "Lucas",
     ]);
-
+		document.getElementById("run").addEventListener("click", () =>{
+			console.log(people.has("Alexandre"));
+			console.log(people.size);
+			people.forEach(function(valeur){
+			
+				if(valeur == "Alexandre")
+				{
+					let find = true;
+					console.log(find);;
+				}
+				else
+				{
+					find = false
+				}
+		});
+	});
+		
+	
     // your code here
 })();

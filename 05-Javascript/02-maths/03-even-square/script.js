@@ -11,6 +11,10 @@
 
 (() => {
     document.getElementById("run").addEventListener("click", () => {
-        // your code here
+
+		for(let i = 2; i < 21; i += 2)
+		{
+			alert(`${i}^2 = ${i**2}`);
+		}
     });
 })();
