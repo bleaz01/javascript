@@ -1,6 +1,5 @@
-# javascript Exo
+# Exo javascript
 
 ## Time
 
-1 semain pour faire les exercice 
-
+1 semain pour faire les exercices 
